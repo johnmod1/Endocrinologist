@@ -1,0 +1,19 @@
+p {
+  text-align: center;
+}
+.logodiv {
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+}
+.logosize {
+  width: 50%;
+  height: 50%;
+}
+
+.div404 {
+  margin: auto;
+  position: relative;
+  width: 50%;
+}

@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.headera {
+  background-color: rgba(240, 230, 140, 0);
+  padding: 18px;
+  text-align: center;
+}
+h1  {
+  font-size: 30px;
+}
+h2 {
+  font-size: 18px;
+}
+.biografy {
+  font-size: 14px;
+}
+/* nav style */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.list {
+  float: left;
+  width: 15%;
+}
+li a {
+  display: block;
+  color: #076304fa;
+  text-align: center;
+  padding: 18px 30px;
+  text-decoration: none;
+  width: 100%;
+}
+li a:hover {
+  background-color: rgba(21, 141, 10, 0.459);
+}
+/* main cont */
+.main {
+  align-self: center;
+  width: 90%;
+  padding: 16px;
+  margin-left: 5%;
+}
+.img-main {
+  text-align: center;
+}
+footer {
+  overflow: hidden;
+  text-align: center;
+  padding: 17px;
+  margin: 8px;
+  background-color: rgba(102, 99, 95, 0);
+  width: 100%;
+}
+/* footer */
+.footerp {
+  font-size: 12px;
+}
+/* footer div align */
+#leftbox {
+  float:left; 
+  width:25%;
+  height: auto;
+}
+#middlebox{
+  float:left;
+  width:50%;
+  height: auto;
+}
+#rightbox{
+  float:right;
+  width:25%;
+  height: auto;
+}
+@media only screen and (max-width: 620px) {
+  h2 {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  #biografy, .main {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .list, .main, #leftbox, #middlebox, #rightbox, #biografy  {
+    width: 100%;
+  }
+}
